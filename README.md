@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmaxabs@deno/mod.js';
+import nanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmaxabs@v0.1.0-deno/mod.js';
 ```
 
 #### nanmaxabs( x\[, options] )
@@ -201,7 +201,7 @@ import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoul
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import nanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmaxabs@deno/mod.js';
+import nanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmaxabs@v0.1.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
